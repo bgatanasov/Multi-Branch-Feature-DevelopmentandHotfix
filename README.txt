@@ -319,3 +319,30 @@ aa51e4e HEAD@{32}: commit: Created new login auth-login.txt
 74f4647 HEAD@{36}: commit (initial): Initial init commit
 
 valeri@win11-teslab MINGW64 /c/Exam/Multi-Branch Feature Development and Hotfix (main)
+
+
+valeri@win11-teslab MINGW64 /c/Exam/Multi-Branch Feature Development and Hotfix (main)
+$ git branch -d hotfix-security
+Deleted branch hotfix-security (was fbf3749).
+
+valeri@win11-teslab MINGW64 /c/Exam/Multi-Branch Feature Development and Hotfix (main)
+$ git switch feature-auth
+Switched to branch 'feature-auth'
+Your branch is up to date with 'origin/feature-auth'.
+
+valeri@win11-teslab MINGW64 /c/Exam/Multi-Branch Feature Development and Hotfix (feature-auth)
+$ git branch -d feature-dashboard
+Deleted branch feature-dashboard (was 5b5b0ab).
+
+valeri@win11-teslab MINGW64 /c/Exam/Multi-Branch Feature Development and Hotfix (feature-auth)
+$ git switch main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+
+valeri@win11-teslab MINGW64 /c/Exam/Multi-Branch Feature Development and Hotfix (main)
+$ git branch -a
+  feature-auth
+* main
+  remotes/origin/feature-auth
+  remotes/origin/main
+  
