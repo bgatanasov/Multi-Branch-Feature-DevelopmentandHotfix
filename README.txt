@@ -259,3 +259,63 @@ aa51e4e Created new login auth-login.txt
 4edd51a add info in file2.txt
 948e706 first change in file1.txt
 74f4647 Initial init commit
+
+
+valeri@win11-teslab MINGW64 /c/Exam/Multi-Branch Feature Development and Hotfix (main)
+$ git branch -a
+  feature-auth
+  feature-dashboard
+  hotfix-security
+* main
+  remotes/origin/feature-auth
+  remotes/origin/main
+
+valeri@win11-teslab MINGW64 /c/Exam/Multi-Branch Feature Development and Hotfix (main)
+$ git branch
+  feature-auth
+  feature-dashboard
+  hotfix-security
+* main
+
+
+valeri@win11-teslab MINGW64 /c/Exam/Multi-Branch Feature Development and Hotfix (main)
+$ git reflog
+b8e6c59 (HEAD -> main, origin/main) HEAD@{0}: commit: added README file with all working steps for Exercise 1
+fbf3749 (hotfix-security) HEAD@{1}: checkout: moving from feature-auth to main
+487338a (origin/feature-auth, feature-auth) HEAD@{2}: commit: added screenshots
+b4c4b94 HEAD@{3}: checkout: moving from main to feature-auth
+fbf3749 (hotfix-security) HEAD@{4}: checkout: moving from feature-auth to main
+b4c4b94 HEAD@{5}: rebase (finish): returning to refs/heads/feature-auth
+b4c4b94 HEAD@{6}: rebase (squash): added new line 2 in file.txt
+f34e18c HEAD@{7}: rebase (squash): # This is a combination of 2 commits.
+6e0d548 HEAD@{8}: rebase (start): checkout HEAD~3
+f8807a9 HEAD@{9}: commit: added new line 4 in file.txt
+663cd90 HEAD@{10}: commit: added new line 3 in file.txt
+6e0d548 HEAD@{11}: commit: added new line 2 in file.txt
+9edf590 HEAD@{12}: commit (merge): update merge conflicts from feature-dashboard to feature-auth
+e25cc70 HEAD@{13}: checkout: moving from feature-dashboard to feature-auth
+5b5b0ab (feature-dashboard) HEAD@{14}: commit: added new line info in file.txt
+026b639 HEAD@{15}: checkout: moving from feature-auth to feature-dashboard
+e25cc70 HEAD@{16}: commit: update info in file.txt
+c8f4e50 HEAD@{17}: merge feature-dashboard: Merge made by the 'ort' strategy.
+b18529e HEAD@{18}: checkout: moving from feature-dashboard to feature-auth
+026b639 HEAD@{19}: commit: updated new line in file
+cd30c76 HEAD@{20}: checkout: moving from feature-auth to feature-dashboard
+b18529e HEAD@{21}: commit: added new file file3
+aa51e4e HEAD@{22}: checkout: moving from main to feature-auth
+fbf3749 (hotfix-security) HEAD@{23}: merge hotfix-security: Fast-forward
+74f4647 HEAD@{24}: checkout: moving from hotfix-security to main
+fbf3749 (hotfix-security) HEAD@{25}: commit: Fix bug in security login in secure-login.txt
+74f4647 HEAD@{26}: checkout: moving from main to hotfix-security
+74f4647 HEAD@{27}: checkout: moving from feature-dashboard to main
+cd30c76 HEAD@{28}: commit: update added for new dashboard.txt
+7f7c827 HEAD@{29}: commit: added new dashboard.txt
+74f4647 HEAD@{30}: checkout: moving from main to feature-dashboard
+74f4647 HEAD@{31}: checkout: moving from feature-auth to main
+aa51e4e HEAD@{32}: commit: Created new login auth-login.txt
+4edd51a HEAD@{33}: commit: add info in file2.txt
+948e706 HEAD@{34}: commit: first change in file1.txt
+74f4647 HEAD@{35}: checkout: moving from main to feature-auth
+74f4647 HEAD@{36}: commit (initial): Initial init commit
+
+valeri@win11-teslab MINGW64 /c/Exam/Multi-Branch Feature Development and Hotfix (main)
