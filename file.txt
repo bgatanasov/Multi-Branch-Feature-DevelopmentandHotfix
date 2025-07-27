@@ -1,3 +1,6 @@
 git add new line from feature-dashboard!
 git add new line from feature-auth!
 git add new line from feature-dashboard new line!
+git add new line 2!
+git add new line 3!
+git add new line 4!
