@@ -1,1 +1,2 @@
 git add new line from feature-dashboard!
+git add new line from feature-dashboard new line!
